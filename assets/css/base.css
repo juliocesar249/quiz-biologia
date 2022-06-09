@@ -1,7 +1,7 @@
 @import url("./reset.css");
 @import url("./variaveis.css");
 
-.background {
+body {
     background: #9360c2;
     /* height: 100vh; */
 }
