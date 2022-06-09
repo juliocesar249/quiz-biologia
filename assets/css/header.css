@@ -1,0 +1,18 @@
+.cabecalho {
+    border-bottom: solid 3px #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cabecalho__titulo {
+    font-size: 3rem;
+}
+
+.cabecalho__subtitulo {
+    font-size: 1.5rem;
+}
+
+.cabecalho__informacao {
+    margin-top: .6rem;
+}

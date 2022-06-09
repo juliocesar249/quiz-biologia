@@ -1,0 +1,28 @@
+.principal__formulario {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.formulario__pergunta {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+[type="radio"] {
+    height: 15px;
+    width: 15px;
+}
+
+.opcao {
+    border: solid 3px white;
+    border-radius: .4rem;
+    display: inline-block;
+    margin-top: .5rem;
+    padding: .2rem;
+}
+
