@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/principal.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/dialog.css">
 </head>
 <body>
     <header class="cabecalho">
         <h1 class="cabecalho__titulo">Fermentação</h1>
         <h2 class="cabecalho__subtitulo">O Quiz</h2>
-        <h3 class="cabecalho__informacao">Alunos: Anny Ellen, Cleriston Junior, Ellen Oliveira,Júlio César e Maria Eduarda</h3>
+        <h3 class="cabecalho__informacao">Alunos: Anny Ellen, Cleriston Junior, Ellen Oliveira, Júlio César e Maria Eduarda</h3>
     </header>
     <main class="principal">
-        <form action="https://www.youtube.com" class="principal__formulario">
+        <form action="#" class="principal__formulario">
             <fieldset class="formulario__pergunta formulario__pergunta--primeira">
                 <legend>1) Se as células musculares podem obter energia por meio da respiração aeróbica ou da fermentação, quando um atleta desmaia após uma corrida de 1000 m por falta de oxigenação adequada de seu cérebro, o gás oxigênio que chega aos músculos também não é suficiente para suprir as necessidades respiratórias das fibras musculares, que passam a acumular</legend>
                 <label class="opcao">
@@ -108,8 +110,22 @@
                 </label>
             </fieldset>
 
-            <button type="submit" class="botao">Corrigir</button>
+            <button type="submit" class="botao" id="botaoCorrigir">Corrigir</button>
+            <button type="submit" class="botao desativado" id="botaoRefazer">Refazer quiz</button>
         </form>
     </main>
+
+    <footer>
+        <address>As perguntas foram tiradas do site do <a href="https://exercicios.mundoeducacao.uol.com.br/exercicios-biologia/exercicios-sobre-fermentacao.htm#questao-7669">Mundo Educação</a>.</address>
+    </footer>
+
+    <div class="dialog">
+        <div class="dialog__container">
+            <div class="dialog__fundo"></div>
+            <div class="dialog__caixa">
+                <p class="caixa__mensagem">Verifique se marcou ao menos uma alternativa em todas as perguntas!</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

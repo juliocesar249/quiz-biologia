@@ -2,7 +2,7 @@
 @import url("./variaveis.css");
 
 body {
-    background: #9360c2;
+    background: var(--cor-do-fundo);
     /* height: 100vh; */
 }
 
@@ -16,7 +16,7 @@ body {
     background-color: #33aced;
     border: solid 3px #1c8bc7;
     border-radius: .8rem;
-    color: #6d6d6d;
+    color: #000000;
     cursor: pointer;
     display: flex;
     font-size: 2rem;
@@ -25,4 +25,8 @@ body {
     height: 3rem;
     margin: 1.3rem auto;
     padding: 1.5rem 1.5rem;
+}
+
+.desativado {
+    display: none;
 }
