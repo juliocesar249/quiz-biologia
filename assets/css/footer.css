@@ -1,3 +1,7 @@
+address {
+    text-decoration: underline #fff;
+}
+
 a:visited {
     color: #005f8b;
 }
