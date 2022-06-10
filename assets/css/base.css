@@ -3,7 +3,6 @@
 
 body {
     background: var(--cor-do-fundo);
-    /* height: 100vh; */
 }
 
 * {
@@ -14,9 +13,9 @@ body {
 .botao {
     align-items: center;
     background-color: #33aced;
-    border: solid 3px #1c8bc7;
+    border: solid 3px #fff;
     border-radius: .8rem;
-    color: #000000;
+    color: #fff;
     cursor: pointer;
     display: flex;
     font-size: 2rem;
