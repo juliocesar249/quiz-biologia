@@ -26,6 +26,17 @@ body {
     padding: 1.5rem 1.5rem;
 }
 
+.certo {
+    color: #0c0;
+    border-color: #0c0!important;
+}
+
+.errado {
+    color: #c00;
+    border-color: #c00!important;
+}
+
+
 .desativado {
     display: none;
 }
