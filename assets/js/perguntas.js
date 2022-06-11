@@ -5,15 +5,17 @@ export const corrige = (respostasDoUsuario, form) => {
         let i = 0;
         let respostasCorretasQuantidade = 0;
         respostasDoUsuario.forEach(resposta => {
+            i++;
 
             if(resposta.id === respostasCorretas[i]) {
                 resposta.parentElement.classList.add('certo');
                 respostasCorretasQuantidade++;
+                return;
             } else {
                 resposta.parentElement.classList.add('errado');
+                return;
             }
 
-            i++;
         });
 
         mostraResultado(respostasCorretasQuantidade, respostasDoUsuario.length, form);
